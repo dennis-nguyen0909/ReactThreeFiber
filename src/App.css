@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+  color: #ccc;
+}
+.nav-bar {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 20px;
+  transition: all ease-in 0.2s;
+}
+.nav-bar:hover {
+  /* background-color: #ccc; */
+  border-radius: 50px;
+  color: white;
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20);
+}
+.buy a {
+  background-color: #c5cee5;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1120px;
+}

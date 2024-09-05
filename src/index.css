@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer utilities {
+    .link {
+        @apply ml-4 p-4 rounded-full bg-gray-300 backdrop-blur flex-center
+    }
+} */
